@@ -7,6 +7,10 @@ const page = () => {
     <Home/>
     </>
   )
+ <>
+ lkjgit add .
+ </>
+  );
 }
 
 export default page
