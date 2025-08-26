@@ -6,10 +6,8 @@ const page = () => {
     <>
     <Home/>
     </>
-  )
- <>
- lkjgit add .
- </>
+
+
   );
 }
 
