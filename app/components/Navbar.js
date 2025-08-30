@@ -20,8 +20,8 @@ const Navbar = () => {
 
   return (
     <nav className="">
-      <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
-        <div className="flex items-center ml-0 md:ml-20">
+      <div className="max-w-5xl mx-auto flex justify-between items-center px-4 py-3">
+        <div className="flex items-center">
           <img src="/images/Link.svg" alt="Logo" className="w-48 h-10" />
         </div>
         <div className="hidden md:flex text-gray-800 font-medium">

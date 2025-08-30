@@ -3,8 +3,8 @@ import { categories } from '@/app/constant/Browse.txt.js'
 
 const Browse = () => {
   return (
-    <div className="flex justify-center lg:justify-end items-center my-8 px-4">
-      <div className="w-full max-w-5xl text-center mr-0 lg:mr-11">
+    <div className="flex justify-center items-center my-8 px-4">
+      <div className="w-full max-w-5xl text-center">
         {/* Heading */}
         <h3 className="font-epilogue font-bold text-2xl sm:text-3xl md:text-4xl lg:text-[40px] capitalize text-[#17254E] mb-6">
           Browse By Categories
