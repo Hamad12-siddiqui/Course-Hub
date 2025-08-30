@@ -4,6 +4,7 @@ import Herosection from './Herosection.js'
 import Browse from './Browse.js'
 import Edunity from './Edunity.js'
 import Footer from '@/app/components/Footer/Footer.js'
+import LearnGrow from './Learn-Grow.js'
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
     <Herosection/>
     <Browse/>
     <Edunity/>
+    <LearnGrow />
     <Footer />
     </>
   )
