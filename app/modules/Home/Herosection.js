@@ -18,7 +18,7 @@ const Herosection = () => {
         className="w-40 h-40 object-cover absolute top-1/2 right-44 transform -translate-x-1/2 -translate-y-1/2 -z-10"
       />
       <div className=" w-6xl flex-row lg:flex my-4 lg:my-0">
-        <div className="ml-0 lg:ml-20 flex flex-col justify-center text-center lg:text-left">
+        <div className="ml-0 lg:ml-10 flex flex-col justify-center text-center lg:text-left">
           {/* Top text */}
           <p className="text-[#704FE6] uppercase text-xs sm:text-sm md:text-base">
             Welcome Edunity online courses

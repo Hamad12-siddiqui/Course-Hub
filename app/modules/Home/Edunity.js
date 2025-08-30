@@ -7,8 +7,8 @@ import { courses } from "../../constant/Edunity.txt.js";
 
 const Edunity = () => {
   return (
-    <div className="flex justify-center lg:justify-end items-center my-8 px-4">
-      <div className="w-full max-w-6xl text-center mr-0 lg:mr-11">
+    <div className="flex justify-center items-center my-8">
+      <div className="w-full max-w-5xl text-center">
         {/* Heading + Button */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
           {/* Heading */}
@@ -44,14 +44,14 @@ const Edunity = () => {
               {/* Rating & Price */}
               <div className="flex justify-between items-center mt-3">
                 <div className="flex items-center gap-2">
-                  <img src="/images/Symbol.svg" alt="rating" className="w-5 h-5" />
-                  <p className="text-[#4D5756] text-sm sm:text-base">{course.rating}k</p>
+                  <img src="/images/Symbol.svg" alt="rating" className="w-10 h-5" />
+                  <p className="text-[#4D5756]  text-sm sm:text-base">{course.rating}k</p>
                 </div>
                 <p className="text-[#704FE6] font-semibold text-sm sm:text-base">${course.price}.00</p>
               </div>
 
               {/* Title */}
-              <p className="font-epilogue mt-2 text-[#0E2A46] font-semibold text-lg sm:text-xl capitalize leading-snug">
+              <p className="font-epilogue mt-2 text-start text-[#0E2A46] font-semibold text-lg sm:text-xl capitalize leading-snug">
                 {course.title}
               </p>
 
