@@ -10,6 +10,7 @@ import LearnGrow from './Learn-Grow.js'
 import Our_instructor from './Our_instructor.js'
 import Blog_post from './Blog_post.js'
 import Newsletter from './Newsletter.js'
+import Session from './Session.js'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
     <Browse/>
     <Edunity/>
      <LearnGrow />
+     <Session/>
     <Creating/>
     {/* <Testimonial/> */}
     <Our_instructor/>
