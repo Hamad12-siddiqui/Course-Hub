@@ -1,4 +1,4 @@
- export const courses = [
+export const courses = [
   {
     id: 1,
     title: "IT Statistics Data Science And Business Analysis",
@@ -10,6 +10,7 @@
     students: "20+",
     instructor: "Samantha",
     image: "/images/image (6).svg",
+    thumbnail: "/images/Container.svg",
   },
   {
     id: 2,
@@ -21,7 +22,8 @@
     duration: "19h 30m",
     students: "20+",
     instructor: "Charles",
-    image: "/images/image (6).svg",
+    image: "/images/image (8).svg",
+    thumbnail: "/images/Link (1).svg",
   },
   {
     id: 3,
@@ -33,7 +35,8 @@
     duration: "19h 30m",
     students: "20+",
     instructor: "Morgan",
-    image: "/images/image (6).svg",
+    image: "/images/image (9).svg",
+    thumbnail: "/images/Link (2).svg",
   },
   {
     id: 4,
@@ -45,7 +48,8 @@
     duration: "19h 30m",
     students: "20+",
     instructor: "Brian Brewer",
-    image: "/images/image (6).svg",
+    image: "/images/image (10).svg",
+    thumbnail: "/images/Link (2).svg",
   },
   {
     id: 5,
@@ -57,7 +61,8 @@
     duration: "19h 30m",
     students: "20+",
     instructor: "Rodriguez",
-    image: "/images/image (6).svg",
+    image: "/images/image (11).svg",
+    thumbnail: "/images/Link (3).svg",
   },
   {
     id: 6,
@@ -69,6 +74,7 @@
     duration: "19h 30m",
     students: "20+",
     instructor: "Morgan",
-    image: "/images/image (6).svg",
+    image: "/images/image (12).svg",
+    thumbnail: "/images/Container (1).svg",
   },
 ];
