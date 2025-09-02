@@ -45,6 +45,7 @@ const LearnGrow = () => {
                             className="w-[300px] sm:w-[370px] h-auto"
                             alt="Group of learners illustration"
                         />
+                        
                         <Image
                             src="/images/experienceyear.svg"
                             height={170}

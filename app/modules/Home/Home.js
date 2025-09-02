@@ -7,6 +7,7 @@ import Creating from './Creating.js'
 // import Testimonial from './Testimonial.js'
 import Footer from '@/app/components/Footer/Footer.js'
 import LearnGrow from './Learn-Grow.js'
+import YourGain from './Your-Gain.js'
 import Our_instructor from './Our_instructor.js'
 import Blog_post from './Blog_post.js'
 import Newsletter from './Newsletter.js'
@@ -23,7 +24,10 @@ const Home = () => {
      <LearnGrow />
      <Session/>
     <Creating/>
-    {/* <Testimonial/> */}
+    <Testimonial/>
+    <LearnGrow />
+    <YourGain />
+    <Testimonial/>
     <Our_instructor/>
     <Blog_post/>
     <Newsletter/>
