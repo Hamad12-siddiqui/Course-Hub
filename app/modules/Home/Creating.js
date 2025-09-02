@@ -4,7 +4,7 @@ import { features, stats } from "@/app/constant/Creating.txt.js";
 
 const Creating = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-10 px-4">
+    <div className="flex flex-col justify-center items-center sm:mt-36 mt-10 px-4 ">
       <div className="w-full md:max-w-5xl flex flex-col md:flex-row justify-between items-center gap-5 ml-0 md:ml-10">
         {/* Left Content */}
         <div className="w-full md:w-1/2 space-y-5">

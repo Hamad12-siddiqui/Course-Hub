@@ -7,12 +7,14 @@ import { courses } from "../../constant/Edunity.txt.js";
 
 const Edunity = () => {
   return (
-    <div className="flex justify-center items-center my-8">
-      <div className="w-full md:max-w-5xl text-center p-0 lg:p-6">
+    <div className="flex justify-center items-center my-8 w-full bg-[url('/images/multishade.jpg')] bg-cover bg-center py-16">
+      <div className="w-full md:max-w-5xl  p-0 lg:p-6">
+                  <h1 className="bg-[#E9E2FF] text-[#704FE6] max-w-48 text-center flex mx-auto md:mx-0">Top Popular Course</h1>
         {/* Heading + Button */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
+
           {/* Heading */}
-          <h3 className="font-epilogue font-bold text-[24px] sm:text-[32px] md:text-[40px] lg:text-[40px] capitalize text-[#17254E] max-w-2xl text-center lg:text-left">
+          <h3 className="font-epilogue font-bold text-lg  sm:text-[32px] md:text-[40px] lg:text-[40px] capitalize text-[#17254E] max-w-xl text-center lg:text-left">
             Edunity Course student can join with us.
           </h3>
 
@@ -43,14 +45,14 @@ const Edunity = () => {
             />
           </div>
 
-          <div className=" bg-[url('/images/brows.svg')]">
+          <div className=" bg-[url('/images/brows.svg')] object-contain bg-no-repeat">
             {/* Rating & Price */}
-            <div className="flex justify-between items-center mt-3">
-              <div className="flex items-center gap-2">
+            <div className="flex justify-between items-center mt-3 ">
+              <div className="flex items-center gap-2 ">
                 <img
                   src="/images/Symbol.svg"
                   alt="rating"
-                  className="w-15 h-7"
+                  className="w-15 h-7 "
                 />
                 <p className="text-[#4D5756] text-sm sm:text-base">
                   {course.rating}k

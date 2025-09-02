@@ -100,9 +100,9 @@ const LearnGrow = () => {
                         </div>
                     </div>
 
-                    <button className='inline-flex items-center gap-3 bg-[#785DD7] px-6 py-3 text-white rounded-full hover:bg-[#6a4ec8] transition-colors'>
+                    <button className='inline-flex items-center gap-3 bg-[#785DD7] pl-4  text-white rounded-full hover:bg-[#6a4ec8] transition-colors'>
                         Load More
-                        <span className='bg-[#6a4ec8] p-2 rounded-full'>
+                        <span className='bg-[#6a4ec8] p-4 rounded-full'>
                             <FaArrowRight className="w-4 h-4" />
                         </span>
                     </button>
