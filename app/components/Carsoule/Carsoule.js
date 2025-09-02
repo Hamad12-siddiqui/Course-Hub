@@ -54,7 +54,8 @@ function PauseOnHover() {
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 1500,
-                pauseOnHover: true
+                pauseOnHover: true,
+                arrows : false,
                 
             };
         } else if (windowWidth <= 600) {
@@ -66,7 +67,8 @@ function PauseOnHover() {
                 autoplay: true,
                 autoplaySpeed: 1500,
                 pauseOnHover: true,
-                initialSlide: 2
+                initialSlide: 2,
+                 arrows : false,
             };
         } else {
             return {
@@ -78,6 +80,7 @@ function PauseOnHover() {
                 autoplaySpeed: 1500,
                 pauseOnHover: true,
                   centerMode: true,
+                   arrows : false,
 
             };
         }

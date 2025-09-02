@@ -4,7 +4,7 @@ import Herosection from './Herosection.js'
 import Browse from './Browse.js'
 import Edunity from './Edunity.js'
 import Creating from './Creating.js'
-// import Testimonial from './Testimonial.js'
+import Testimonial from './Testimonial.js'
 import Footer from '@/app/components/Footer/Footer.js'
 import LearnGrow from './Learn-Grow.js'
 import YourGain from './Your-Gain.js'
@@ -23,12 +23,13 @@ const Home = () => {
      <LearnGrow />
     <Creating/>
     <Testimonial/>
-    <LearnGrow />
+   <Our_instructor/>
+   <div className='bg-[#F2F2F2]  mt-20' >
     <YourGain />
-    <Testimonial/>
-    <Our_instructor/>
+   
     <Blog_post/>
     <Newsletter/>
+    </div>
     <Footer />
     </>
   )
