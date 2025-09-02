@@ -7,6 +7,7 @@ import Creating from './Creating.js'
 import Testimonial from './Testimonial.js'
 import Footer from '@/app/components/Footer/Footer.js'
 import LearnGrow from './Learn-Grow.js'
+import YourGain from './Your-Gain.js'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
     <Creating/>
     <Testimonial/>
     <LearnGrow />
+    <YourGain />
     <Footer />
     </>
   )
