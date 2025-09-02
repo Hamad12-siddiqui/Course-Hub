@@ -8,7 +8,7 @@ import { courses } from "../../constant/Edunity.txt.js";
 const Edunity = () => {
   return (
     <div className="flex justify-center items-center my-8">
-      <div className="w-full max-w-5xl text-center p-0 lg:p-6">
+      <div className="w-full md:max-w-5xl text-center p-0 lg:p-6">
         {/* Heading + Button */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
           {/* Heading */}

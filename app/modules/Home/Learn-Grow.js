@@ -26,7 +26,7 @@ const LearnGrow = () => {
                                 className="w-[120px] sm:w-[150px] h-auto"
                                 alt="Learning tower illustration"
                             />
-                            <div className='w-36'>
+                            <div className='w-36 sm:block hidden'>
                                 <Image
                                     src="/images/image (4).svg"
                                     height={200}
