@@ -9,7 +9,7 @@ import Footer from "@/app/components/Footer/Footer.js";
 import LearnGrow from "./Learn-Grow.js";
 import YourGain from "./Your-Gain.js";
 import Our_instructor from "./Our_instructor.js";
-import Blog_post from "./Blog_post.js";
+import Blog_post from "../../components/Blog/Blog_post.js";
 import Newsletter from "./Newsletter.js";
 import Session from "./Session.js";
 
@@ -32,7 +32,12 @@ const Home = () => {
       <div className="bg-[#F2F2F2]  mt-20">
         <YourGain />
 
-        <Blog_post />
+        <Blog_post
+          showbutton={true}
+          Blog="BLOG POST"
+          Most="Most Popular Post"
+          limit={3}
+        />
         <Newsletter />
       </div>
       <Footer />
