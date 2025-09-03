@@ -87,35 +87,7 @@ const Creating = () => {
           </div>
         </div>
       </div>
-
-      {/* Stats Section */}
-      <div className="w-full max-w-5xl bg-[#FFD25D] rounded-2xl md:rounded-full mt-10 py-6 px-6 ml-0 md:ml-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center md:text-left">
-          {stats.map((item) => (
-            <div
-              key={item.id}
-              className="flex flex-col md:flex-row items-center md:items-center justify-center gap-3"
-            >
-              {/* Icon */}
-              <img
-                src={item.icon}
-                alt={item.label}
-                className="w-10 h-10 object-contain"
-              />
-
-              {/* Text Section */}
-              <div>
-                <p className="font-epilogue font-bold text-[20px] sm:text-[25px] capitalize">
-                  {item.number}
-                </p>
-                <p className="text-[#0E2A46] font-sora font-normal text-[12px] sm:text-[14px] capitalize">
-                  {item.label}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+     
     </div>
   );
 };
