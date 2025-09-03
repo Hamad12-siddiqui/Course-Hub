@@ -1,11 +1,11 @@
 import Navbar from '@/app/components/Navbar'
 import React from 'react'
-import Herosection from './Herosection'
 import OnlineLearning from './Online-Learning'
 import Banner from '@/app/components/Bannar/Bannar'
 import Testimonial from '../Home/Testimonial'
 import MeetInstructor from './MeetInstructor'
 import FooterMain from '@/app/components/Footer/FooterMain'
+import Herosection from '@/app/components/Herosection/Herosection'
 
 const About_us = () => {
   return (
