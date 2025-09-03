@@ -76,7 +76,7 @@ const Creating = () => {
           />
 
           {/* Main Image */}
-          <div className="bg-white relative w-[90%] sm:w-[80%] md:w-[70%]">
+          <div className="bg-white relative w-full sm:w-[80%] md:w-[70%]">
             <div className="p-1">
               <img
                 src="/images/main.svg"

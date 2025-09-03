@@ -22,7 +22,7 @@ const About_us = () => {
     <MeetInstructor />
     <FooterMain />
     </>
-  )
-}
+  );
+};
 
-export default About_us
+export default About_us;
