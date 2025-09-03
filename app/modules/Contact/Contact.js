@@ -9,7 +9,7 @@ const Contact = () => {
     <>
     <Navbar/>
      <Herosection
-        title="Contact Us"
+    title="Contact Us"
         path="Home"
         span="//"
         next="Contact Us"

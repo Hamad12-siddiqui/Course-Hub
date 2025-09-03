@@ -3,6 +3,7 @@ import React from 'react'
 import Herosection from '../../components/Herosection/Herosection'
 import Edunity from '@/app/components/Edunity/Edunity'
 import Footer from '@/app/components/Footer/Footer'
+import FooterMain from '@/app/components/Footer/FooterMain'
 
 const Course = () => {
   return (
@@ -22,7 +23,7 @@ const Course = () => {
         iconClass="bg-[#785DD7]"
         limit={6}
       />
-      <Footer />
+      <FooterMain />
     </>
   )
 }
