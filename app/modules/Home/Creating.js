@@ -67,7 +67,7 @@ const Creating = () => {
           <img
             src="/images/image (4).svg"
             alt="decoration"
-            className="absolute -top-8 -right-8 w-20 sm:w-28 lg:w-40 hidden sm:block"
+            className="absolute -top-8 -right-8 w-20 sm:w-28 lg:w-40 hidden md:block"
           />
           <img
             src="/images/image (15).svg"
@@ -76,7 +76,7 @@ const Creating = () => {
           />
 
           {/* Main Image */}
-          <div className="bg-white relative w-[90%] sm:w-[80%] md:w-[70%]">
+          <div className="bg-white relative w-full sm:w-[80%] md:w-[70%]">
             <div className="p-1">
               <img
                 src="/images/main.svg"

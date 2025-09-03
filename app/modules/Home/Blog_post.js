@@ -18,7 +18,7 @@ const Blog_post = () => {
             </h3>
           </div>
           <div className="mt-2 md:mt-0">
-            <div className="bg-[#704FE6] text-white rounded-3xl flex items-center shadow-md">
+            <div className="w-fit bg-[#704FE6] text-white rounded-3xl flex items-center shadow-md">
               <button className="px-4 py-2 text-sm md:text-base">Contact us</button>
               <div className="bg-[#785DD7] flex justify-center items-center w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full">
                 <GoArrowRight />

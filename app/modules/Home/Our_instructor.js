@@ -5,7 +5,7 @@ import { images } from "@/app/constant/Our_instructor.txt.js";
 const Our_instructor = () => {
   return (
     <div className="w-full flex   justify-center mt-10">
-        <div className="mt-0 md:mt-25 pr-0 md:pr-10">
+        <div className="mt-0 md:mt-25 pr-0 md:pr-10 md:block hidden">
         <img
           src="/images/image (19).svg"
           alt="Instructor"
@@ -13,8 +13,15 @@ const Our_instructor = () => {
         />
         </div>
       <div className="w-full  md:max-w-5xl flex flex-col md:flex-row justify-between">
-        <div className="md:w-1/2 flex flex-col p-0 md:p-4">
-          <div className="flex justify-end md:justify-center ml-0 md:ml-25">
+        <div className="md:w-1/2 flex flex-col p-4">
+          <div className="flex justify-between md:justify-center ml-0 md:ml-25">
+            <div className="block md:hidden mt-0 md:mt-25 pr-0 md:pr-10   ">
+        <img
+          src="/images/image (19).svg"
+          alt="Instructor"
+          className="w-15 md:w-12"
+        />
+        </div>
             <img
               src="/images/image (17).svg"
               alt="Instructor"
