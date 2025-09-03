@@ -44,7 +44,7 @@ const Herosection = () => {
             </div>
 
             {/* Side small image */}
-            <div className="hidden sm:block w-20 sm:w-28 md:w-45">
+            <div className="hidden sm:block w-20  sm:w-28  md:w-45">
               <img
                 src="/images/image (5).svg"
                 alt="image"
@@ -53,22 +53,29 @@ const Herosection = () => {
             </div>
 
             {/* Background shadow */}
-            <div className="absolut-none lg:absolute -right-6 -top-6 sm:-right-8 sm:-top-8 lg:right-10 lg:top-[-20] z-999 w-56 sm:w-32 md:w-40 lg:w-60">
+            {/* <div className=" absolute right-0 border top-0 z-999 w-56 sm:w-32 md:w-40 lg:w-60">
+              <img
+                src="/images/Background+Shadow.svg"
+                alt="image"
+                className="object-contain w-full h-full"
+              />
+            </div> */}
+          </div>
+        </div>
+
+        <div className="relative lg:mt-0 mt-10">
+          <img
+            src="/images/techer.svg"
+            alt="image"
+            className="w-full lg:w-xl h-auto lg:h-[400px] object-cover z-50"
+          />
+          <div className=" absolute lg:-left-40 md:left-0 sm:-left-20  top-48 z-999 w-56 sm:w-32 md:w-40 lg:w-60">
               <img
                 src="/images/Background+Shadow.svg"
                 alt="image"
                 className="object-contain w-full h-full"
               />
             </div>
-          </div>
-        </div>
-
-        <div className="relative">
-          <img
-            src="/images/techer.svg"
-            alt="image"
-            className="w-full lg:w-xl h-auto lg:h-[400px] object-cover z-50"
-          />
         </div>
       </div>
     </div>

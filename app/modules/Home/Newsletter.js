@@ -3,19 +3,19 @@ import React from 'react'
 const Newsletter = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center bg-[#704FE6] relative my-10">
-      <div className="w-full md:max-w-6xl flex flex-col justify-center items-center  relative p-4 md:p-0">
+      <div className="w-full md:max-w-6xl flex flex-col justify-center items-center   p-4 md:p-0">
         {/* Left Image */}
         <img
           src="/images/image (20).svg"
           alt="left decoration"
-          className="absolute -left-14 top-0  w-20 sm:w-28 md:w-40 lg:w-52 md:block hidden"
+          className="absolute left-0 top-0  w-20 sm:w-28 md:w-40 lg:w-52 "
         />
 
         {/* Right Image */}
         <img
           src="/images/image (21).svg"
           alt="right decoration"
-          className="absolute -right-14 bottom-0 w-20 sm:w-28 md:w-40 lg:w-52 md:block hidden"
+          className="absolute right-0 bottom-0 w-20 sm:w-28 md:w-40 lg:w-52 "
         />
 
         {/* Top right small image */}

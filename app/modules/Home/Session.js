@@ -32,10 +32,10 @@ const Session = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black/40"></div>
 
       {/* Content above video */}
-      <div className=" w-full md:max-w-5xl p-4 relative z-10 flex  items-end justify-center h-full text-white">
+      <div className=" w-full md:max-w-5xl pt-4 pb-1 relative z-10 flex  items-end h-full text-white">
         <div className="">
-            <p className="font-[Sora] font-semibold text-[18px] text-[#FFD25D] capitalize">Join Our New Session</p>
-        <h2 className=" max-w-2xl text-2xl md:text-4xl font-bold">
+            <p className="font-[Sora] font-semibold text-md text-[#FFD25D] capitalize ">Join Our New Session</p>
+        <h2 className=" max-w-2xl text-2xl md:text-4xl font-bold ">
           Call To Enroll Your Child (+91)958423452
         </h2>
         </div>

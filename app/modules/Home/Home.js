@@ -24,12 +24,14 @@ const Home = () => {
      <LearnGrow />
      <Session/>
     <Creating/>
-    <LearnGrow />
-    <YourGain />
     <Testimonial/>
-    <Our_instructor/>
+   <Our_instructor/>
+   <div className='bg-[#F2F2F2]  mt-20' >
+    <YourGain />
+   
     <Blog_post/>
     <Newsletter/>
+    </div>
     <Footer />
     </>
   )
