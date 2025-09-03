@@ -89,7 +89,8 @@ const Creating = () => {
       </div>
 
       {/* Stats Section */}
-      <div className="w-full max-w-5xl bg-[#FFD25D] rounded-2xl md:rounded-full mt-10 py-6 px-6 ml-0 md:ml-8">
+      <div className="w-full max-w-5xl bg-[#FFD25D] rounded-2xl md:rounded-full mt-10 py-6 px-6 ml-0 md:ml-8
+      bg-cover bg-center bg-no-repeat bg-[url('/images/bg(3).png')]">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center md:text-left">
           {stats.map((item) => (
             <div
