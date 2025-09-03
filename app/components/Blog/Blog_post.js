@@ -4,19 +4,28 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { TiMessages } from "react-icons/ti";
 import { blogPosts } from "@/app/constant/Blog_post.txt.js";
 
-const Blog_post = () => {
+const Blog_post = ({
+  showbutton = true,
+  Blog,
+  Most,
+  BlogName,
+  limit,
+}) => {
+    const displayedCourses = (blogPosts || []).slice(0, limit);
+  
   return (
     <div className="w-full h-full flex flex-col justify-center items-center my-10 px-4 sm:px-6 lg:px-8">
       <div className="w-full md:max-w-5xl">
         <div className="flex flex-col md:flex-row justify-between md:items-end gap-4">
           <div className="space-y-3">
-            <p className="border rounded-lg inline-flex text-sm sm:text-base bg-[#E9E2FF] text-[#704FE6] px-3 py-1">
-              BLOG POST
+            <p className={`border rounded-lg inline-flex text-sm sm:text-base bg-[#E9E2FF] text-[#704FE6] px-3 py-1${BlogName}`}>
+              {Blog}
             </p>
             <h3 className="font-epilogue font-bold text-2xl sm:text-3xl md:text-[30px] leading-tight capitalize">
-              Most Popular Post.
+              {Most}
             </h3>
           </div>
+          {showbutton &&(
           <div className="mt-2 md:mt-0">
             <div className="w-fit bg-[#704FE6] text-white rounded-3xl flex items-center shadow-md">
               <button className="px-4 py-2 text-sm md:text-base">Contact us</button>
@@ -25,9 +34,10 @@ const Blog_post = () => {
               </div>
             </div>
           </div>
+          )}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-          {blogPosts.map((post) => (
+          {displayedCourses.map((post) => (
             <div
               key={post.id}
               className="rounded-xl p-2 shadow-sm flex flex-col bg-cover bg-center bg-[url('/images/bg.jpg')]"

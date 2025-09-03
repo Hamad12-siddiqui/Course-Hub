@@ -14,6 +14,20 @@ import Newsletter from './Newsletter.js'
 import Session from './Session.js'
 import Banner from '@/app/components/Bannar/Bannar.js'
 
+import React from "react";
+import Navbar from "../../components/Navbar.js";
+import Herosection from "./Herosection.js";
+import Browse from "./Browse.js";
+import Edunity from "../../components/Edunity/Edunity.js";
+import Creating from "./Creating.js";
+import Testimonial from "./Testimonial.js";
+import Footer from "@/app/components/Footer/Footer.js";
+import LearnGrow from "./Learn-Grow.js";
+import YourGain from "./Your-Gain.js";
+import Our_instructor from "./Our_instructor.js";
+import Blog_post from "../../components/Blog/Blog_post.js";
+import Newsletter from "./Newsletter.js";
+import Session from "./Session.js";
 
 const Home = () => {
   return (
@@ -39,6 +53,31 @@ const Home = () => {
     <Newsletter/>
     </div>
     <Footer />
+      <Navbar />
+      <Herosection />
+      <Browse />
+      <Edunity
+        label="Top Popular Course"
+        heading="Edunity Course student can join with us."
+        buttonText="Load More Course"
+      />
+      <LearnGrow />
+      <Session />
+      <Creating />
+      <Testimonial />
+      <Our_instructor />
+      <div className="bg-[#F2F2F2]  mt-20">
+        <YourGain />
+
+        <Blog_post
+          showbutton={true}
+          Blog="BLOG POST"
+          Most="Most Popular Post"
+          limit={3}
+        />
+        <Newsletter />
+      </div>
+      <Footer />
     </>
   )
 }
