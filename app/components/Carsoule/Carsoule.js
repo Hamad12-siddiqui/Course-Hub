@@ -88,7 +88,8 @@ function PauseOnHover() {
 
     const settings = getSlideSettings();
     return (
-        <div className="max-w-5xl mx-auto  ">
+        <div className="w-full bg-[url('/images/mapbg.jpg')] bg-cover bg-center bg-no-repeat md:pb-20 pb-10">
+        <div className="max-w-5xl mx-auto   ">
             {typeof window !== 'undefined' && (
                 <Slider {...settings} className="">
                     {data.map((item, index) => (
@@ -115,6 +116,7 @@ function PauseOnHover() {
                 </Slider>
             )}
            
+        </div>
         </div>
     );
 }

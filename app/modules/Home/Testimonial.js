@@ -4,7 +4,9 @@ import React from "react";
 const Testimonial = () => {
   return (
     <>
-    <div className="flex justify-center items-center mt-20 mb-10 md:px-4 px-0">
+    <div className="flex justify-center items-center mt-20 pt-10 md:px-4 px-0 bg-[url('/images/mapbg.jpg')] bg-cover bg-center">
+
+
       <div className="w-5xl flex flex-col justify-center items-center">
         <div className="bg-[#E9E2FF] text-[#704FE6]">
           <p className="font-sora font-normal text-sm py-1 md:px-4 px-0 uppercase">
