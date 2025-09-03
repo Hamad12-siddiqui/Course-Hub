@@ -4,7 +4,7 @@ import { stats } from "@/app/constant/Creating.txt.js";
 
 const Banner = () => {
   return (
-    <div className="w-full flex justify-center items-center px-4 border-2">
+    <div className="w-full flex justify-center items-center px-4 ">
       <div className="w-full md:max-w-5xl bg-[#FFD25D] rounded-2xl md:rounded-full py-6 px-6 
         bg-cover bg-no-repeat bg-[url('/images/bg(3).png')]">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center md:text-left">
