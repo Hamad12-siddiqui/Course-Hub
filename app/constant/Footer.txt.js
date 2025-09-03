@@ -1,3 +1,8 @@
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
+
+
 export const SERVICES = [
   {
     id: 1,
@@ -65,4 +70,23 @@ export const gallery = [
      {
         img : "/images/gallery6.svg"
     },
+];
+
+export const address = [
+ {
+   text : "address",
+  addr : "1234 North Avenue Luke Lane, South Bend, IN 360001",
+  icon : FaMapMarkerAlt
+ },
+ {
+  text : "phone",
+  addr : "+123 456 7890",
+  icon : FaPhoneAlt 
+ },
+ {
+  text : "email",
+  addr : "abc@gmail.com",
+  icon : MdOutlineMail
+ }
+
 ]

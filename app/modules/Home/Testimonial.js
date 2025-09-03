@@ -9,9 +9,7 @@ const Testimonial = () => {
     
  
     <div className=" w-full relative flex justify-center items-center mt-20 pt-10 md:px-4 px-0 bg-[url('/images/mapbg.jpg')] bg-cover bg-center">
-<div className="absolute  md:-top-12 sm:-top-20 -top-44">
-      <Bannar/>
-    </div>
+
       <div className="w-5xl flex flex-col justify-center items-center md:mt-10 mt-24">
         <div className="bg-[#E9E2FF] text-[#704FE6]">
           <p className="font-sora font-normal text-sm py-1 md:px-4 px-0 uppercase">

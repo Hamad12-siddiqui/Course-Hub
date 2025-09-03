@@ -12,6 +12,7 @@ import Our_instructor from './Our_instructor.js'
 import Blog_post from './Blog_post.js'
 import Newsletter from './Newsletter.js'
 import Session from './Session.js'
+import Banner from '@/app/components/Bannar/Bannar.js'
 
 
 const Home = () => {
@@ -24,7 +25,12 @@ const Home = () => {
      <LearnGrow />
      <Session/>
     <Creating/>
+    <div className='relative'>
     <Testimonial/>
+    <div className="absolute  md:-top-12 sm:-top-20 -top-44 w-full mx-auto">
+      <Banner />
+    </div>
+    </div>
    <Our_instructor/>
    <div className='bg-[#F2F2F2]  mt-20' >
     <YourGain />
