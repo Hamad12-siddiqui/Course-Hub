@@ -3,11 +3,15 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { GoArrowRight } from "react-icons/go";
 import { FiMenu, FiX } from "react-icons/fi";
-import { usePathname } from "next/navigation"; // 👈 import hook
+import { redirect, usePathname } from "next/navigation"; // 👈 import hook
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const pathname = usePathname(); // 👈 current route
+  const pathname = usePathname(); 
+  const handleChange = () => {
+       redirect('/');
+  }
 
   const links = [
     { href: "/", label: "Home" },
@@ -21,7 +25,7 @@ const Navbar = () => {
     <nav className="">
       <div className="max-w-5xl mx-auto flex justify-between items-center px-4 py-3">
         <div className="flex items-center">
-          <img src="/images/Link.svg" alt="Logo" className="w-48 h-10" />
+          <img src="/images/Link.svg" alt="Logo" className="w-48 h-10" onClick={handleChange} />
         </div>
         <div className="hidden md:flex text-gray-800 font-medium">
           {links.map((link) => (

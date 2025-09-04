@@ -23,7 +23,7 @@ const Herosection = ({ title, path,span,next }) => {
         />
         <div className="flex flex-col items-center">
           {/* Title */}
-          <p className="font-epilogue font-bold text-[40px] uppercase text-[#0E2A46]">
+          <p className="font-epilogue font-bold text-[40px]  uppercase text-[#0E2A46]">
             {title}
           </p>
 

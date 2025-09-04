@@ -21,6 +21,7 @@ const Blog = () => {
           Most=""
           BlogName="none"
           limit={6}
+          className='border-none'
         />
         <Footer/>
     </>

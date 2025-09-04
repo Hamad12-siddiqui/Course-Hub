@@ -46,6 +46,7 @@ const Home = () => {
           showbutton={true}
           Blog="BLOG POST"
           Most="Most Popular Post"
+         
           limit={3}
         />
         <Newsletter />
