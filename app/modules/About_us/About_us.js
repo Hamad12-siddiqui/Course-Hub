@@ -11,7 +11,12 @@ const About_us = () => {
   return (
     <>
     <Navbar />
-    <Herosection/>
+     <Herosection
+        title="About Us"
+        path="Home"
+        span="//"
+        next="About Us"
+      />
     <OnlineLearning />
    <div className='relative'>
     <Testimonial/>

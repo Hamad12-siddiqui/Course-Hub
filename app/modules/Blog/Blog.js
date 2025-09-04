@@ -2,7 +2,7 @@ import Navbar from '@/app/components/Navbar'
 import React from 'react'
 import Herosection from '@/app/components/Herosection/Herosection'
 import Blog_post from '@/app/components/Blog/Blog_post'
-import Footer from '@/app/components/Footer/Footer'
+import FooterMain from '@/app/components/Footer/FooterMain'
 
 const Blog = () => {
   return (
@@ -23,7 +23,7 @@ const Blog = () => {
           limit={6}
           className='border-none'
         />
-        <Footer/>
+        <FooterMain/>
     </>
   )
 }

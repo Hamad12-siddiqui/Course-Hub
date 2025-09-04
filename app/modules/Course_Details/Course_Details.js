@@ -1,24 +1,27 @@
 import Navbar from '@/app/components/Navbar'
-import React from 'react'
 import Herosection from '@/app/components/Herosection/Herosection'
-import Contact_us from './Contact_us'
+import React from 'react'
+import Details from './Details'
 import Footer from '@/app/components/Footer/Footer'
 import FooterMain from '@/app/components/Footer/FooterMain'
 
-const Contact = () => {
+const Course_Details = ({ course}) => {
   return (
     <>
     <Navbar/>
-     <Herosection
-    title="Contact Us"
+    <Herosection
+        title="Course Details"
         path="Home"
         span="//"
-        next="Contact Us"
+        next="Course"
+        className=" font-semibold text-xl text-center"
       />
-      <Contact_us/>
+      <Details  course={course}/>
       <FooterMain/>
+    
+    
     </>
   )
 }
 
-export default Contact
+export default Course_Details
