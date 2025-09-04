@@ -1,8 +1,8 @@
 import { courses } from "@/app/constant/Edunity.txt";
 import Course_Details from "@/app/modules/Course_Details/Course_Details";
 
-export default function CoursePage({ params }) {
-  const { slug } = params;
+export default async  function CoursePage ({ params }) {
+  const { slug } = await params;
   const course = courses.find((c) => c.slug === slug);
 
   if (!course) {

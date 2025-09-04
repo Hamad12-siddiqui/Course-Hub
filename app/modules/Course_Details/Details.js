@@ -49,19 +49,19 @@ const Details = ({ course }) => {
               {/* Lessons, Duration, Students */}
               <div className="flex flex-wrap gap-4 items-center py-2 px-1 text-sm sm:text-base">
                 <div className="flex items-center gap-1">
-                  <IoIosCopy size={14} className="text-black" />
+                  <IoIosCopy size={14} className="text-[#704FE6]" />
                   <p className="text-[#4D5756] text-xs sm:text-sm">
                     Lesson {course.lessons}
                   </p>
                 </div>
                 <div className="flex items-center gap-1">
-                  <IoTimer size={16} className="text-black" />
+                  <IoTimer size={16} className="text-[#704FE6]" />
                   <p className="text-[#4D5756] text-xs sm:text-sm">
                     {course.duration}
                   </p>
                 </div>
                 <div className="flex items-center gap-1">
-                  <FaUser size={14} className="text-black" />
+                  <FaUser size={14} className="text-[#704FE6]" />
                   <p className="text-[#4D5756] text-xs sm:text-sm">
                     Students {course.students}
                   </p>
