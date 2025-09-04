@@ -2,8 +2,8 @@ import React from "react";
 import { blogPosts } from "@/app/constant/Blog_post.txt.js";
 import BlogDetails from "@/app/modules/Blog/detail-blog";
 
-const Page = ({ params }) => {
-  const { slug } = params;
+const Page = async ({ params }) => {
+  const { slug } = await params;
 
   // Slug ke basis pe blog post find karo
   const post = blogPosts.find((p) => p.slug === slug);
