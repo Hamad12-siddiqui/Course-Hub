@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import Navbar from "../../components/Navbar.js";
 import Herosection from "./Herosection.js";
@@ -16,11 +14,9 @@ import Newsletter from "./Newsletter.js";
 import Session from "./Session.js";
 import Banner from "@/app/components/Bannar/Bannar.js";
 
-
 const Home = () => {
   return (
     <>
-   
       <Navbar />
       <Herosection />
       <Browse />
@@ -28,16 +24,18 @@ const Home = () => {
         label="Top Popular Course"
         heading="Edunity Course student can join with us."
         buttonText="Load More Course"
+        buttonClass="bg-[#704FE6] text-white"
+        iconClass="bg-[#785DD7]"
       />
       <LearnGrow />
       <Session />
       <Creating />
-       <div className='relative'>
-    <Testimonial/>
-    <div className="absolute  md:-top-12 sm:-top-20 -top-44 w-full mx-auto">
-      <Banner />
-    </div>
-    </div>
+      <div className="relative">
+        <Testimonial />
+        <div className="absolute  md:-top-12 sm:-top-20 -top-44 w-full mx-auto">
+          <Banner />
+        </div>
+      </div>
       <Our_instructor />
       <div className="bg-[#F2F2F2]  mt-20">
         <YourGain />
@@ -52,9 +50,7 @@ const Home = () => {
       </div>
       <Footer />
     </>
-  )
-}
-
-
+  );
+};
 
 export default Home;

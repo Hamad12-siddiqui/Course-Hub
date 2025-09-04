@@ -1,6 +1,11 @@
 import React from "react";
 
-const Herosection = ({ title, path,span,next }) => {
+const Herosection = ({ 
+  title,
+  path,
+  span,
+  next,
+className}) => {
   return (
     <div className='w-full  bg-cover bg-center bg-no-repeat bg-[url("/images/bg(2).jpg")]'>
       <div className="flex justify-end items-center h-full mr-12 pt-6">
@@ -23,7 +28,7 @@ const Herosection = ({ title, path,span,next }) => {
         />
         <div className="flex flex-col items-center">
           {/* Title */}
-          <p className="font-epilogue font-bold text-[40px] uppercase text-[#0E2A46]">
+          <p className={`font-epilogue font-bold text-[40px] uppercase text-[#0E2A46] ${className}`}>
             {title}
           </p>
 

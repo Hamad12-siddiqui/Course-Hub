@@ -4,6 +4,7 @@ import { IoIosCopy } from "react-icons/io";
 import { IoTimer } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
 import { courses } from "../../constant/Edunity.txt.js";
+import Link from "next/link.js";
 
 
 const Edunity = ({ 
@@ -36,6 +37,7 @@ const Edunity = ({
           </h3>
 
           {showButton && (
+            <Link href="/Course">
              <div className={`flex items-center self-center lg:self-auto rounded-3xl mt-2 ${buttonClass}`}>
             <button className="px-4 py-2 text-sm sm:text-base">
               {buttonText}
@@ -44,10 +46,12 @@ const Edunity = ({
               <GoArrowRight />
             </div>
           </div>
+            </Link>
           )}
         </div>
 
         {/* Course Cards */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mt-8">
           {displayedCourses.map((course) => (
             <div
@@ -112,17 +116,22 @@ const Edunity = ({
                     />
                     <p className="text-sm sm:text-base">{course.instructor}</p>
                   </div>
+                   <Link href={`/${course.slug}`}>
                   <div className="w-full sm:w-[100px]">
+                   
                     <div className="flex justify-center items-center bg-[#704FE6] text-white rounded-3xl mt-2 sm:mt-0 gap-2">
                       <button className="py-1 text-sm sm:text-base">Enroll</button>
                       <GoArrowRight />
                     </div>
+                    
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>
           ))}
         </div>
+      
 
       </div>
     </div>
