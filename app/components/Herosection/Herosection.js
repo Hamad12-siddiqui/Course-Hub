@@ -7,39 +7,30 @@ const Herosection = ({
   next,
 className}) => {
   return (
-    <div className='w-full  bg-cover bg-center bg-no-repeat bg-[url("/images/bg(2).jpg")]'>
-      <div className="flex justify-end items-center h-full mr-12 pt-6">
-         <div className="w-fit h-fit block md:hidden border-2">
+    <div className='w-full h-[200px] bg-cover bg-center bg-no-repeat bg-[url("/images/bg(2).jpg")]'>
+      <div className="flex flex-col justify-center items-center mx-5 pt-5">
+      <div className="w-full flex  justify-between">
+       
         <img
           src="/images/image (25).svg"
           alt="About Us"
-          className="w-10 ml-5"
+          className="w-10"
         />
-        </div>
+    
         <img
           src="/images/image (24).svg"
           alt="About Us"
           className="w-10 h-10"
         />
       </div>
-      <div className="max-w-4xl flex justify-between ml-0 md:ml-12">
-        <div className="w-fit h-fit md:block hidden border-2">
-        <img
-          src="/images/image (25).svg"
-          alt="About Us"
-          className="w-10 ml-5"
-        />
-        </div>
-        <img
-          src="/images/image (26).svg"
-          alt="About Us"
-          className="w-15 h-15 mt-6  md:block hidden"
-        />
-        <div className="flex flex-col items-center">
+      <div className="max-w-4xl flex justify-between ml-0 md:ml-12 mb-12">
+       
+        <div className="w-full md:w-fit flex flex-col justify-center items-center text-center">
           {/* Title */}
-          <p className="font-epilogue font-bold text-[40px]  uppercase text-[#0E2A46]">
-            {title}
-          </p>
+          <p className="font-epilogue font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[40px] uppercase text-[#0E2A46]">
+  {title}
+</p>
+
 
           {/* Path */}
           <div className="space-x-8">
@@ -48,12 +39,10 @@ className}) => {
             </p>
           </div>
         </div>
-        <img
-          src="/images/image (27).svg"
-          alt="About Us"
-          className="w-8 h-8 mt-25 mb-6"
-        />
+       
       </div>
+      </div>
+       
     </div>
   );
 };
