@@ -42,12 +42,14 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
+        <Link href="/Login">
         <div className="hidden md:flex bg-[#704FE6] text-white rounded-3xl items-center">
           <button className="px-4 py-2">Create Account</button>
           <div className="bg-[#785DD7] flex justify-center items-center w-[45px] h-[45px] rounded-full">
             <GoArrowRight />
           </div>
         </div>
+        </Link>
         <button
           className="md:hidden text-2xl"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -73,12 +75,14 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
+          <Link herf="/Login" >
           <div className="bg-[#704FE6] text-white rounded-3xl flex items-center w-fit mt-4">
             <button className="px-4 py-2">Create Account</button>
             <div className="bg-[#785DD7] flex justify-center items-center w-[40px] h-[40px] rounded-full">
               <GoArrowRight />
             </div>
           </div>
+          </Link>
         </div>
       )}
     </nav>
