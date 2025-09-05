@@ -9,6 +9,13 @@ className}) => {
   return (
     <div className='w-full  bg-cover bg-center bg-no-repeat bg-[url("/images/bg(2).jpg")]'>
       <div className="flex justify-end items-center h-full mr-12 pt-6">
+         <div className="w-fit h-fit block md:hidden border-2">
+        <img
+          src="/images/image (25).svg"
+          alt="About Us"
+          className="w-10 ml-5"
+        />
+        </div>
         <img
           src="/images/image (24).svg"
           alt="About Us"
@@ -16,11 +23,13 @@ className}) => {
         />
       </div>
       <div className="max-w-4xl flex justify-between ml-0 md:ml-12">
+        <div className="w-fit h-fit md:block hidden border-2">
         <img
           src="/images/image (25).svg"
           alt="About Us"
-          className="w-10 h-10 ml-5"
+          className="w-10 ml-5"
         />
+        </div>
         <img
           src="/images/image (26).svg"
           alt="About Us"

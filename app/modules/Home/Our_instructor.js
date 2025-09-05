@@ -1,11 +1,13 @@
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
 import { images } from "@/app/constant/Our_instructor.txt.js";
+import Link from "next/link";
+
 
 const Our_instructor = () => {
   return (
     <div className="w-full flex   justify-center mt-10">
-        <div className="mt-0 md:mt-25 pr-0 md:pr-10 md:block hidden">
+        <div className="mt-0 md:mt-25 pr-0 md:pr-10 md:block hidden ">
         <img
           src="/images/image (19).svg"
           alt="Instructor"
@@ -45,6 +47,8 @@ const Our_instructor = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
+              <Link href="/Contact">
+
               <div className="bg-[#704FE6] text-white rounded-3xl flex items-center w-fit">
                 <button className="px-4 py-2 text-sm md:text-base">
                   Contact us
@@ -53,15 +57,17 @@ const Our_instructor = () => {
                   <GoArrowRight />
                 </div>
               </div>
-
+              </Link>
+              <Link href="/Teacher">
               <div className="bg-[#17254E] text-white rounded-3xl flex items-center w-fit">
                 <button className="px-4 py-2 text-sm md:text-base">
-                  Find courses
+                  Best Teacher
                 </button>
                 <div className="bg-[#1F3061] flex justify-center items-center w-8 h-8 md:w-10 md:h-10 rounded-full">
                   <GoArrowRight />
                 </div>
               </div>
+              </Link>
             </div>
           </div>
 

@@ -8,7 +8,7 @@ import Link from "next/link";
 import React from "react";
 import { FaCalendarAlt, FaComments } from "react-icons/fa";
 
-const BlogDetails = ({ post, otherCategory }) => {
+const BlogDetails = ({ post, sameCategory, otherCategory }) => {
   return (
     <>
       <div>
