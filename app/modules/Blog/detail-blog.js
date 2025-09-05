@@ -6,7 +6,6 @@ import React from "react";
 import { FaCalendarAlt, FaComments } from "react-icons/fa";
 
 const BlogDetails = ({ post, sameCategory, otherCategory }) => {
-console.log("Other Category Data:", otherCategory);
   return (
     <>
       <Herosection title="Blog Details" path="Home" span="//" next="Course" />

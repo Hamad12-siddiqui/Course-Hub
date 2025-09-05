@@ -4,9 +4,12 @@ import React from "react";
 import { IoIosCopy } from "react-icons/io";
 import { IoTimer } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
+import PaymentModal from "../../components/Model/PaymentModal.js"; // 👈 Modal import karo
+import Link from "next/link";
 
 const Details = ({ course }) => {
   const [activeTab, setActiveTab] = useState("overview");
+  const [isModalOpen, setIsModalOpen] = useState(false); // 👈 modal state
 
   if (!course) {
     return <div className="text-red-500">Course not found</div>;
@@ -164,9 +167,13 @@ const Details = ({ course }) => {
           </div>
 
           {/* Button */}
-          <button className="w-full bg-[#704FE6] text-white font-semibold py-2 rounded-md hover:bg-[#5a3fc2] transition">
+           <button
+            onClick={() => setIsModalOpen(true)}
+            className="w-full bg-[#704FE6] text-white font-semibold py-2 rounded-md hover:bg-[#5a3fc2] transition"
+          >
             BUY NOW
           </button>
+
 
           {/* Details */}
           <div className="mt-3 text-sm text-gray-700 space-y-2">
@@ -195,6 +202,11 @@ const Details = ({ course }) => {
               <span>{course.language}</span>
             </div>
           </div>
+           <PaymentModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        course={course}
+      />
         </div>
       </div>
     </div>
