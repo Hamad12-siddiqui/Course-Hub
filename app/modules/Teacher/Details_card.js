@@ -5,6 +5,7 @@ import { FaFacebookF, FaTwitter, FaSkype, FaLinkedinIn } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 
 const Details_card = ({ teacher }) => {
   return (
@@ -64,6 +65,8 @@ const Details_card = ({ teacher }) => {
           </div>
 
           {/* Button */}
+                <Link href="/Instructor_Registration">
+
           <div className="w-full flex justify-center md:justify-start">
             <button className="flex justify-between items-center gap-3 bg-[#704FE6] text-white rounded-full cursor-pointer mt-6 pl-4 pr-2 py-1">
               Contact us teacher
@@ -72,6 +75,7 @@ const Details_card = ({ teacher }) => {
               </span>
             </button>
           </div>
+          </Link>
         </div>
 
         {/* Right Detail Section */}
