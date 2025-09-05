@@ -97,6 +97,7 @@ const Details = ({ course }) => {
                         Course Description
                       </h2>
                       <p className="text-sm sm:text-base">{course.overview}</p>
+
                     </div>
                   )}
 
@@ -143,7 +144,7 @@ const Details = ({ course }) => {
         </div>
 
         {/* Right Section (Sidebar) */}
-        <div className="w-full lg:w-1/3 h-auto p-4 bg-[#E8E8F4] rounded-md mt-2 space-y-3">
+        <div className="w-full lg:w-1/3 h-[550px] p-4 border  bg-[#E8E8F4] rounded-md mt-2 space-y-3">
           {/* Image */}
           <img
             src={course.thumbnail}

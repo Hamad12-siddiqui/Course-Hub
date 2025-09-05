@@ -1,7 +1,7 @@
 export const blogPosts = [
   {
     id: 1,
-    image: "/images/Container (6).svg",
+    image: "/images/countainer0.jpg",
     date: "14 June 2023",
     comments: "06",
     description: "Discover key insights and learning strategies to boost your skills in this comprehensive course overview.",
@@ -53,7 +53,7 @@ export const blogPosts = [
 },
    {
   id: 4,
-  image: "/images/Link (4).svg",
+  image: "/images/countainer1.jpg",
   date: "14 June 2023",
   comments: "08",
   description: "Unlock actionable insights and expert tips to help you get the most out of your learning experience.",
@@ -70,7 +70,7 @@ export const blogPosts = [
 },
   {
   id: 5,
-  image: "/images/Container (7).svg",
+  image: "/images/countainer2.jpg",
   date: "21 April 2024",
   comments: "10",
   description: "Discover proven techniques and study methods to help you succeed in your chosen course.",

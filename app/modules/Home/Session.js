@@ -24,8 +24,9 @@ const Session = () => {
         ref={videoRef}
         src="/images/video.mp4"
         className="absolute top-0 left-0 w-full h-full object-cover"
-        muted
-        loop
+         autoPlay
+  muted
+  loop
       />
 
       {/* Overlay (optional dark layer for readability) */}

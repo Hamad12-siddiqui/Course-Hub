@@ -47,7 +47,7 @@ const Blog_post = ({
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
           {displayedCourses.map((post) => (
-            <div
+            <Link  href={`/Blog/${post.slug}`} 
               key={post.id}
               className="rounded-xl p-2 shadow-sm flex flex-col bg-cover bg-center bg-[url('/images/bg.jpg')]"
             >
@@ -70,15 +70,15 @@ const Blog_post = ({
               <p className="mt-2 font-epilogue font-semibold text-base sm:text-lg md:text-xl leading-6 sm:leading-7 text-[#333] line-clamp-3">
                 {post.description}
               </p>
-              <Link  href={`/Blog/${post.slug}`} className="inline-flex mt-4">
+              <div className="inline-flex mt-4">
                 <div className="bg-[#E9E2FF] text-[#704FE6] rounded-3xl flex items-center">
                   <button className="px-4 py-2 text-sm md:text-base cursor-pointer">Read More</button>
                   <div className="bg-[#E3DBFF] flex justify-center items-center w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full ">
                     <GoArrowRight />
                   </div>
                 </div>
-              </Link>
-            </div>
+              </div>
+            </Link>
           ))}
         </div>
       </div>
