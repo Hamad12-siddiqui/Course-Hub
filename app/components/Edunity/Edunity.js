@@ -84,7 +84,6 @@ const Edunity = ({
                     ${course.price}.00
                   </p>
                 </div>
-
                 {/* Title */}
                 <p className="font-epilogue mt-2 text-start text-[#0E2A46] font-semibold text-lg sm:text-xl capitalize leading-snug">
                   {course.title}
