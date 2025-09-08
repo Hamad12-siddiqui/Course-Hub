@@ -117,7 +117,7 @@ const Edunity = ({
                     <p className="text-sm sm:text-base">{course.instructor}</p>
                   </div>
                    <Link href={`/${course.slug}`}>
-                  <div className="w-full sm:w-[100px]">
+                  <div className="w-[200px] sm:w-[100px]">
                    
                     <div className="flex justify-center items-center px-2 bg-[#704FE6] text-white rounded-3xl mt-2 sm:mt-0 gap-2">
                       <button className="py-1 text-sm sm:text-base">Enroll</button>
