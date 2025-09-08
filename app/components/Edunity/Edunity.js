@@ -21,18 +21,18 @@ const Edunity = ({
 
   return (
     <div className="flex justify-center items-center my-8 w-full bg-[url('/images/multishade.jpg')] bg-cover bg-center py-16">
-      <div className={`w-full md:max-w-5xl p-0 lg:p-6 ${customClass}`}>
+      <div className={`w-full md:max-w-5xl p-2 lg:p-6 ${customClass}`}>
 
         {/* Label */}
         {label && (
-          <h1 className="w-fit py-1  bg-[#E9E2FF] text-[#704FE6] sm:text-center text-left  flex sm:mx-auto mx-0">
+          <h1 className="w-fit py-1 px-2 bg-[#E9E2FF] text-[#704FE6]">
             {label}
           </h1>
         )}
 
         {/* Heading + Button */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
-          <h3 className="font-epilogue font-bold text-lg sm:text-[32px] md:text-[40px] capitalize text-[#17254E] max-w-xl text-center lg:text-left">
+          <h3 className="font-epilogue font-bold text-lg sm:text-[32px] md:text-[40px] capitalize text-[#17254E] max-w-xl  lg:text-left">
             {heading}
           </h3>
 
@@ -119,7 +119,7 @@ const Edunity = ({
                    <Link href={`/${course.slug}`}>
                   <div className="w-[200px] sm:w-[100px]">
                    
-                    <div className="flex justify-center items-center bg-[#704FE6] text-white rounded-3xl mt-2 sm:mt-0 gap-2">
+                    <div className="flex justify-center items-center px-2 bg-[#704FE6] text-white rounded-3xl mt-2 sm:mt-0 gap-2">
                       <button className="py-1 text-sm sm:text-base">Enroll</button>
                       <GoArrowRight />
                     </div>

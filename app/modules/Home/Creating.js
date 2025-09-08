@@ -21,12 +21,12 @@ const Creating = () => {
           </div>
 
           {/* Title */}
-          <h3 className="text-center md:text-left font-epilogue font-bold text-2xl sm:text-3xl md:text-[32px] capitalize leading-snug">
+          <h3 className=" md:text-left font-epilogue font-bold text-2xl sm:text-3xl md:text-[32px] capitalize leading-snug">
             Creating A Community Of Life Long Learners.
           </h3>
 
           {/* Description */}
-          <p className="text-center md:text-left font-sora font-normal text-[12px] sm:text-[14px] text-[#4D5756]">
+          <p className=" md:text-left font-sora font-normal text-[12px] sm:text-[14px] text-[#4D5756]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris..

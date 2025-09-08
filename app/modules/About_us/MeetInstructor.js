@@ -8,8 +8,8 @@ import Link from "next/link"; // 👈 Link import kiya
 
 const MeetInstructor = ({
   showAll = false,
-  className = "flex flex-row justify-center md:justify-start",
-  classbook = "flex flex-col w-full items-center justify-center sm:flex-col md:flex-row md:justify-between md:items-center lg:flex-row lg:justify-between lg:items-center ",
+  className = "flex flex-row justify-start ",
+  classbook = "flex flex-col w-full items-start justify-start sm:flex-col md:flex-row md:justify-between md:items-center lg:flex-row lg:justify-between lg:items-center ",
   showIcon = false,
   classteacher = "text-lg text-[#FF9E0E]",
   classicon = " text-white bg-[#00BEAE]",
@@ -36,7 +36,7 @@ const MeetInstructor = ({
 
   return (
     <div className="w-full bg-[#E8E8F4] pt-16">
-      <div className="max-w-5xl mx-auto ">
+      <div className="max-w-5xl mx-auto p-4 md:p-0">
         <div className={` ${className} gap-2`}>
           {!showIcon && (
             <Image src="/images/book.svg" alt="logo" width={15} height={15} />
