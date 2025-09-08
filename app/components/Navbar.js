@@ -75,7 +75,7 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <Link herf="/Login" >
+          <Link href="/Login" >
           <div className="bg-[#704FE6] text-white rounded-3xl flex items-center w-fit mt-4">
             <button className="px-4 py-2">Create Account</button>
             <div className="bg-[#785DD7] flex justify-center items-center w-[40px] h-[40px] rounded-full">

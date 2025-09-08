@@ -51,7 +51,7 @@ const Details_card = ({ teacher }) => {
           </div>
 
           {/* Contact Info */}
-          <div className="mt-6 space-y-3 text-sm sm:text-base text-gray-600 w-full">
+          <div className="mt-6 ml-0 md:ml-10 space-y-3 text-sm sm:text-base text-gray-600 w-full">
             <p className="flex items-center justify-center md:justify-start gap-2">
               <IoCall className="text-[#FC6441]" /> {teacher.contact.phone}
             </p>

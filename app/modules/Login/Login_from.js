@@ -57,7 +57,7 @@ export const Login_from = ({ isLogin, setIsLogin }) => {
           </form>
 
           {/* Submit Button */}
-          <div className="w-full flex justify-between items-center mt-6">
+          <div className="w-full  flex flex-wrap justify-center gap-3 md:gap-0  md:justify-between items-center mt-6">
             <div className="bg-[#704FE6] text-white rounded-3xl flex items-center w-fit">
               <button type="submit" className="px-4 py-2 text-sm md:text-base">
                 {isLogin ? "Sign In" : "Sign Up"}
