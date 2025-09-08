@@ -1,5 +1,7 @@
+'use client'
 import React from 'react'
 import { categories } from '@/app/constant/Browse.txt.js'
+import Image from 'next/image'
 
 const Browse = () => {
   return (
@@ -17,11 +19,15 @@ const Browse = () => {
               key={category.id}
               className={`flex justify-start items-center gap-4 py-4 px-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 ${category.bgColor}`}
             >
-              <img
+              <div className="w-10 h-10 sm:w-12 sm:h-12 object-cover ">
+              <Image
                 src={category.icon}
                 alt={category.name}
-                className="w-10 h-10 sm:w-12 sm:h-12 object-cover"
+                width={200}
+                height={200}
+                
               />
+               </div>
               <p className="font-epilogue font-bold text-base sm:text-lg md:text-xl">
                 {category.name}
               </p>
