@@ -5,7 +5,7 @@ import { FaArrowRight } from 'react-icons/fa'
 
 const YourGain = () => {
     return (
-        <div className='w-full relative  '>
+        <div className='w-full relative'>
             <div className='absolute top-20 left-10 md:block hidden'>
                 <Image
                     src="/images/balls.svg"
@@ -30,12 +30,13 @@ const YourGain = () => {
                     height={50}
 />
             </div>
-            <div className='max-w-5xl mx-auto pt-20 '>
+            <div className='max-w-5xl mx-auto pt-10 md:pt-20 '>
                 <div className='px-4 sm:px-0 relative'>
-                    <h1 className='bg-[#E9E2FF] max-w-[200px] text-center text-[#704FE6] rounded-sm mx-auto text-sm sm:text-base py-1'>
+                    
+                    <h1 className='bg-[#E9E2FF] w-fit text-start text-[#704FE6] rounded-sm md:mx-auto text-sm sm:text-base py-1'>
                         Choose your career
                     </h1>
-                    <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold text-center my-4' >
+                    <h1 className='text-3xl text-start md:text-center sm:text-4xl md:text-5xl font-bold  my-4' >
                         Discover your gain
                     </h1>
                     <div className='absolute top-10 left-20 md:block hidden '>
